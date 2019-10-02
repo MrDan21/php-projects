@@ -1,0 +1,21 @@
+{
+    "name": "oop",
+    "description": "oop course",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "MrDan21",
+            "email": "jhair173@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
